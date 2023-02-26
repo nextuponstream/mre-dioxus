@@ -1,0 +1,10 @@
+[package]
+name = "workspace1"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dioxus = { git = "https://github.com/DioxusLabs/dioxus", rev = "2c629f6d13257d4d841691f2caf0bb03d22287c2"}
+dioxus-desktop = { git = "https://github.com/DioxusLabs/dioxus", rev = "2c629f6d13257d4d841691f2caf0bb03d22287c2"}
